@@ -27,24 +27,24 @@ font-weight: bold;
 color: #333333;
 border-bottom: .05rem solid #e7e7e7;
 }
-table.JDC_Spec {
+table.JDC_spec {
 width: 100%;
 max-width:800px;
 height: 24px;
 text-align: left;
 border-collapse: collapse;
 }
-table.JDC_Spec td, table.JDC_Spec th {
+table.JDC_spec td, table.JDC_spec th {
 border-top: .05rem solid #e7e7e7;
 padding-left: 12px;
 padding-right: 12px;
 padding-top: 8px;
 padding-bottom: 8px;
 }
-table.JDC_Spec tbody td {
+table.JDC_spec tbody td {
 font-size: 14px;
 }
-table.JDC_Spec td:nth-child(odd) {
+table.JDC_spec td:nth-child(odd) {
 background: #f3f3f3;
 width: 35%
 }
