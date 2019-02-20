@@ -183,7 +183,12 @@ td.JDC_three_column {
     border: 0px solid #ccc;
     text-align: left;
     vertical-align: top;
-    min-width: 254px;
+    width: 254px;
+}
+
+tr.JDC_three_column{
+
+
 }
 
 @media all and (max-width:600px) {
