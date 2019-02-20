@@ -1,0 +1,84 @@
+table.JDC_schart {
+  width: 100%;
+  max-width:800px;
+  height: 24px;
+  text-align: center;
+  border-collapse: collapse;
+  background-color: #f6f6f6;
+
+}
+table.JDC_schart td, table.JDC_schart th {
+
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+table.JDC_schart tbody td {
+  font-size: 13px;
+}
+table.JDC_schart tr:nth-child(even) {
+  background: #FFFFFF;
+}
+table.JDC_schart thead {
+  background: linear-gradient(to bottom,#f8f8f8,#eee);
+}
+table.JDC_schart thead th {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+    border-bottom: .05rem solid #e7e7e7;
+}
+
+
+
+table.JDC_Spec {
+  width: 100%;
+  max-width:800px;
+  height: 24px;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.JDC_Spec td, table.JDC_Spec th {
+  border-top: .05rem solid #e7e7e7;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+table.JDC_Spec tbody td {
+  font-size: 14px;
+}
+table.JDC_Spec td:nth-child(odd) {
+  background: #f3f3f3;
+  width: 35%
+}
+
+
+img.JDC_img {
+  max-width: 800px; 
+  height: auto; 
+  width: 100%; 
+  height: auto; 
+  display: block;"
+}
+
+
+p.JDC_paragraph {
+font-size: 14px;
+margin-bottom: 24px;
+word-break: normal;
+overflow-wrap: normal;
+
+}
+
+
+h1.JDC_h1
+{
+margin-bottom: 16px;
+ margin-top: 16px; 
+ font-size: 18px; 
+ font-weight: 700; word-break: normal;
+  overflow-wrap: normal;
+
+}
