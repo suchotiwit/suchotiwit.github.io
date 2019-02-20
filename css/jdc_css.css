@@ -183,7 +183,7 @@ td.JDC_three_column {
     border: 0px solid #ccc;
     text-align: left;
     vertical-align: top;
-    width: 254px;
+    width: 33.33%;
 }
 
 tr.JDC_three_column{
@@ -205,3 +205,13 @@ tr.JDC_three_column{
         width: 100%;
     }
 }
+
+
+.horizontal_line {
+border-top: 0.5px solid #dddddd;
+ width: 95%;
+  max-width: 800px ;
+   margin-left: auto;
+    margin-right: auto;
+}
+
