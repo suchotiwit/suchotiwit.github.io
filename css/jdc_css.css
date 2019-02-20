@@ -118,6 +118,16 @@ h1.JDC_h1 {
     overflow-wrap: normal;
 }
 
+h2.JDC_h2 {
+    margin-bottom: 8px;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    word-break: normal;
+    overflow-wrap: normal;
+}
+
+
 ul.JDC_bullet {
     padding-left: 20px;
     list-style: disc;
