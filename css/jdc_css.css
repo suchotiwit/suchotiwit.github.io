@@ -17,7 +17,6 @@ table.JDC_schart th {
 
 table.JDC_schart td {
     font-size: 13px;
-    vertical-align: top;
 }
 
 table.JDC_schart tr:nth-child(even) {
@@ -54,7 +53,6 @@ table.JDC_spec th {
 
 table.JDC_spec td {
     font-size: 14px;
-    vertical-align: top;
 }
 
 table.JDC_spec td:nth-child(odd) {
