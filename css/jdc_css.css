@@ -53,7 +53,7 @@ max-width: 800px;
 height: auto;
 width: 100%;
 height: auto;
-display: block;"
+display: block;
 }
 p.JDC_paragraph {
 font-size: 14px;
@@ -63,7 +63,7 @@ overflow-wrap: normal;
 }
 h1.JDC_h1
 {
-margin-bottom: 16px;
+margin-bottom: 12px;
 margin-top: 16px;
 font-size: 18px;
 font-weight: 700; word-break: normal;
@@ -72,7 +72,7 @@ overflow-wrap: normal;
 
 ul.JDC_bullet
 {
-padding-inline-start: 25px !important;
+padding-inline-start: 25px;
 list-style: disc; font-size:14px;
 word-break: normal !important;
 margin-top: 4px;
