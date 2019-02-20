@@ -128,3 +128,56 @@ p.JDC_bold {
     word-break: normal;
     margin-bottom: 4px;
 }
+
+table.JDC_three_column {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    max-width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+    word-break: normal;
+    overflow-wrap: normal;
+}
+
+img.JDC_three_column {
+    max-width: 600px;
+    height: auto;
+    width: 100%;
+}
+
+p.JDC_three_column {
+    padding-bottom: 12px;
+    margin: 0px;
+}
+
+td.JDC_three_column_title {
+    text-align: left;
+    font-weight: 700;
+    padding: 4px;
+}
+
+td.JDC_three_column {
+    padding: 4px;
+    border: 0px solid #ccc;
+    text-align: left;
+    vertical-align: top;
+    min-width: 254px;
+}
+
+@media all and (max-width:600px) {
+    table.JDC_three_column,
+    tr {
+        display: block;
+    }
+    td.JDC_three_column {
+        padding: 4px;
+        border: 0px solid #ccc;
+        text-align: left;
+        vertical-align: top;
+        display: block;
+        width: 100%;
+    }
+}
