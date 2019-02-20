@@ -178,7 +178,7 @@ td.JDC_three_column {
 
 @media all and (max-width:600px) {
     table.JDC_three_column,
-    tr {
+    tr.JDC_three_column {
         display: block;
     }
     td.JDC_three_column {
