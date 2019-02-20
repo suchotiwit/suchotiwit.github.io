@@ -12,16 +12,17 @@ padding-right: 12px;
 padding-top: 8px;
 padding-bottom: 8px;
 }
-table.JDC_schart tbody td {
+table.JDC_schart td {
 font-size: 13px;
+vertical-align: top;
 }
 table.JDC_schart tr:nth-child(even) {
 background: #FFFFFF;
 }
-table.JDC_schart thead {
+table.JDC_schart {
 background: linear-gradient(to bottom,#f8f8f8,#eee);
 }
-table.JDC_schart thead th {
+table.JDC_schart th {
 font-size: 14px;
 font-weight: bold;
 color: #333333;
@@ -41,13 +42,37 @@ padding-right: 12px;
 padding-top: 8px;
 padding-bottom: 8px;
 }
-table.JDC_spec tbody td {
+table.JDC_spec td {
 font-size: 14px;
+vertical-align: top;
 }
 table.JDC_spec td:nth-child(odd) {
 background: #f3f3f3;
 width: 35%
 }
+
+table.JDC_table {
+width: 100%;
+max-width:800px;
+height: 24px;
+text-align: left;
+border-collapse: collapse;
+}
+table.JDC_table td, table.JDC_table th {
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 4px;
+padding-bottom: 4px;
+}
+table.JDC_table td {
+font-size: 14px;
+vertical-align: top;
+}
+table.JDC_table td:nth-child(odd) {
+width: 25%
+}
+
+
 img.JDC_img {
 max-width: 800px;
 height: auto;
@@ -66,7 +91,8 @@ h1.JDC_h1
 margin-bottom: 8px;
 margin-top: 8px;
 font-size: 18px;
-font-weight: 700; word-break: normal;
+font-weight: 700; 
+word-break: normal;
 overflow-wrap: normal;
 }
 
