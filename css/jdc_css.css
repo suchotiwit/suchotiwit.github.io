@@ -355,7 +355,7 @@ table.JDC_two_column td:nth-child(odd) {
         margin-left: auto;
         margin-right: auto;
         margin-top: 0px;
-        margin-bottom: 16px !important;
+        margin-bottom: 12px !important;
     }
     p.JDC_two_column {
         padding-bottom: 16px;
