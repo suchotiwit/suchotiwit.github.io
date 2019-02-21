@@ -11,9 +11,9 @@ table.JDC_schart {
     margin-right: auto;
 }
 
-@media all and (max-width:600px) {
+@media screen and (max-width:600px) {
     table.JDC_schart{
-     width: 480px;
+    width: 480px;
     height: 24px;
     text-align: center;
     border-collapse: collapse;
