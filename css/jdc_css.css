@@ -9,6 +9,7 @@ table.JDC_schart {
     display: table;
     margin-left: auto;
     margin-right: auto;
+    table-layout: fixed;
 }
 
 @media screen and (max-width:600px) {
