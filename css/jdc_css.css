@@ -153,10 +153,9 @@ table.JDC_table td:nth-child(odd) {
 }
 
 img.JDC_img {
-    max-width: 800px;
+    max-width: 100%;
     height: auto;
-    width: 100%;
-    height: auto;
+    width: 800px;
     display: block;
 }
 
@@ -189,9 +188,10 @@ ul.JDC_bullet {
     padding-left: 20px;
     list-style: disc;
     font-size: 14px;
-    word-break: normal !important;
     margin-top: 4px;
     margin-bottom: 16px;
+    word-break: normal;
+    overflow-wrap: normal;
 }
 
 li.JDC_bullet {
