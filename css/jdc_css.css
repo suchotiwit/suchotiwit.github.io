@@ -1,6 +1,6 @@
 table.JDC_schart {
-    width: 100%;
-    max-width: 800px;
+    width: 800px;
+    max-width: 100%;
     height: 24px;
     text-align: center;
     border-collapse: collapse;
@@ -36,8 +36,7 @@ table.JDC_schart {
 
 @media screen and (max-width:600px) {
     table.JDC_schart {
-        width: 100%;
-        max-width: 800px;
+        width:100% ;
         height: 24px;
         text-align: center;
         border-collapse: collapse;
@@ -96,14 +95,36 @@ table.JDC_schart th {
 }
 
 table.JDC_spec {
-    width: 100%;
-    max-width: 800px;
+    width:800px ;
+    max-width: 100%;
     height: 24px;
     text-align: left;
     border-collapse: collapse;
     display: table;
     margin-left: auto;
     margin-right: auto;
+    table-layout: fixed;
+    word-break: normal;
+    overflow-wrap: normal;
+    font-size: 13px;
+    vertical-align: top;
+}
+
+@media screen and (max-width:600px) {
+    table.JDC_spec {
+    width:100%;
+    height: 24px;
+    text-align: left;
+    border-collapse: collapse;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    word-break: normal;
+    overflow-wrap: normal;
+    font-size: 13px;
+    vertical-align: top;
+    }
 }
 
 table.JDC_spec td,
@@ -124,15 +145,42 @@ table.JDC_spec td:nth-child(odd) {
     width: 35%
 }
 
+
+
 table.JDC_table {
-    width: 100%;
-    max-width: 800px;
+    width: 800px;
+    max-width: 100%;
     height: 24px;
     text-align: left;
     border-collapse: collapse;
     display: table;
     margin-left: auto;
     margin-right: auto;
+    table-layout: fixed;
+    word-break: normal;
+    overflow-wrap: normal;
+    font-size: 13px;
+    vertical-align: top;
+}
+
+@media screen and (max-width:600px) {
+    table.JDC_table {
+    width: 100%;
+    height: 24px;
+    text-align: left;
+    border-collapse: collapse;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    word-break: normal;
+    overflow-wrap: normal;
+    font-size: 13px;
+    vertical-align: top;
+    }
+    table.JDC_spec td {
+    font-size: 13px;
+}
 }
 
 table.JDC_table td,
@@ -148,9 +196,6 @@ table.JDC_table td {
     vertical-align: top;
 }
 
-table.JDC_table td:nth-child(odd) {
-    width: 25%
-}
 
 img.JDC_img {
     max-width: 100%;
@@ -169,7 +214,7 @@ p.JDC_paragraph {
 h1.JDC_h1 {
     margin-bottom: 8px;
     margin-top: 8px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
     word-break: normal;
     overflow-wrap: normal;
@@ -178,7 +223,7 @@ h1.JDC_h1 {
 h2.JDC_h2 {
     margin-bottom: 8px;
     margin-top: 8px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     word-break: normal;
     overflow-wrap: normal;
@@ -222,7 +267,6 @@ table.JDC_three_column {
 }
 
 img.JDC_three_column {
-    max-width: 600px;
     height: auto;
     width: 100%;
     padding: 0px;
@@ -240,7 +284,7 @@ td.JDC_three_column_title {
     text-align: left;
     font-weight: 700;
     padding: 14px 0px 6px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 td.JDC_three_column {
@@ -255,7 +299,7 @@ td.JDC_three_column_right {
     border: 0px solid #ccc;
     text-align: left;
     vertical-align: top;
-    width: 31.85%;
+    width: 31.45%;
 }
 
 tr.JDC_three_column {}
@@ -278,24 +322,24 @@ tr.JDC_three_column {}
 }
 
 table.JDC_two_column {
-    width: 100%;
+    width:100% ;
     border-collapse: collapse;
     table-layout: fixed;
     max-width: 800px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    vertical-align: top;
     word-break: normal;
     overflow-wrap: normal;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
+    margin-top: 8px;
 }
 
 td.JDC_two_column_title {
     text-align: left;
     font-weight: 700;
     padding-bottom: 4px;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 p.JDC_two_column {
@@ -316,8 +360,7 @@ td.JDC_two_column_right {
     padding: 4px;
     border: 0px solid #ccc;
     text-align: left;
-    vertical-align: top;
-    padding-left: 8px
+    padding-left: 0px;
 }
 
 img.JDC_two_column {
@@ -326,17 +369,34 @@ img.JDC_two_column {
     width: 93.3%;
 }
 
-table.JDC_two_column td:nth-child(odd) {
+.JDC_two_column_right td:nth-child(odd) {
+    width: 35%
+}
+
+.JDC_two_column_left td:nth-child(even) {
     width: 35%
 }
 
 @media all and (max-width:600px) {
-    table.JDC_two_column,
     th.JDC_two_column,
     td.JDC_two_column,
     tr.JDC_two_column {
         display: block;
     }
+    table.JDC_two_column {
+    width:100% ;
+    border-collapse: collapse;
+    table-layout: fixed;
+    max-width: 800px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+    word-break: normal;
+    overflow-wrap: normal;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
     table.JDC_two_column td:nth-child(odd) {
         width: 100%
     }
@@ -348,12 +408,12 @@ table.JDC_two_column td:nth-child(odd) {
         text-align: left;
         font-weight: 700;
         padding: 14px 0px 6px;
-        font-size: 16px;
+        font-size: 14px;
     }
     .horizontal_line_mobile {
         border-bottom: 0.5px solid #dddddd;
-        width: 100%;
-        max-width: 800px;
+        width:800px ;
+        max-width: 100%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 0px;
@@ -366,23 +426,83 @@ table.JDC_two_column td:nth-child(odd) {
         overflow-wrap: normal;
     }
     img.JDC_two_column {
-        max-width: 600px;
         height: auto;
         width: 100%;
     }
 }
 
-.horizontal_line {
+.JDC_horizontal_line {
     border-top: 0.5px solid #dddddd;
-    width: 95%;
+    width: 100%;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
     margin-bottom: 0px;
+    line-height: 8px;
 }
 
-.JEC_center {
+.JDC_center {
     margin: 0 auto;
     max-width: 800px;
+}
+
+.JDC_line_height_8px {
+    line-height: 8px;
+    max-width: 800px;
+}
+
+.JDC_line_height_12px {
+    line-height: 12px;
+    max-width: 800px;
+}
+
+.JDC_line_height_16px {
+    line-height: 16px;
+    max-width: 800px;
+}
+
+.JDC_line_height_20px {
+    line-height: 20px;
+    max-width: 800px;
+}
+
+.JDC_line_height_24px {
+    line-height: 24px;
+    max-width: 800px;
+}
+
+.JDC_text_center {
+    text-align: center;
+}
+
+.JDC_margin_0px {
+  margin: 0px;  
+}
+
+.JDC_font_size_14px {
+    font-size: 14px;
+}
+
+.JDC_font_size_16px {
+    font-size: 16px;
+}
+
+.JDC_font_size_20px {
+    font-size: 20px;
+}
+
+.JDC_font_size_24px {
+    font-size: 24px;
+}
+
+.JDC_font_size_32px {
+    font-size: 32px;
+}
+
+.JDC_vertical_align_middle {
+    vertical-align: middle;
+}
+.JDC_vertical_align_top {
+    vertical-align: top;
 }
