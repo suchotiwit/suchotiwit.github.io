@@ -218,6 +218,7 @@ table.JDC_three_column {
     vertical-align: top;
     word-break: normal;
     overflow-wrap: normal;
+    margin-top: 4px;
 }
 
 img.JDC_three_column {
@@ -243,18 +244,18 @@ td.JDC_three_column_title {
 }
 
 td.JDC_three_column {
-    padding-right: 8px;
+    padding-right: 12px;
     border: 0px solid #ccc;
     text-align: left;
     vertical-align: top;
-    width: 33.33%;
+    width: 33%;
 }
 
 td.JDC_three_column_right {
     border: 0px solid #ccc;
     text-align: left;
     vertical-align: top;
-    width: 32.33%;
+    width: 31.85%;
 }
 
 tr.JDC_three_column {}
@@ -287,6 +288,7 @@ table.JDC_two_column {
     vertical-align: top;
     word-break: normal;
     overflow-wrap: normal;
+    margin-bottom: 16px;
 }
 
 td.JDC_two_column_title {
