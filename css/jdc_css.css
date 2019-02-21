@@ -350,13 +350,19 @@ table.JDC_two_column td:nth-child(odd) {
     }
     .horizontal_line_mobile {
         border-bottom: 0.5px solid #dddddd;
-        width: 95%;
+        width: 100%;
         max-width: 800px;
         margin-left: auto;
         margin-right: auto;
         margin-top: 0px;
-        margin-bottom: 0px;
+        margin-bottom: 16px !important;
     }
+    p.JDC_two_column {
+    padding-bottom: 16px;
+    font-size: 14px;
+    word-break: normal;
+    overflow-wrap: normal;
+}
 }
 
 .horizontal_line {
