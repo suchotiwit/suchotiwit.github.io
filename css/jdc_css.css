@@ -209,7 +209,7 @@ tr.JDC_three_column {}
     }
     td.JDC_three_column,
     td.JDC_three_column_right {
-        padding: 4px;
+        padding: 0px;
         border: 0px solid #ccc;
         text-align: left;
         vertical-align: top;
