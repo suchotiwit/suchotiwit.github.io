@@ -285,11 +285,10 @@ table.JDC_two_column td:nth-child(odd) {
         display: block;
     }
     td.JDC_two_column_title {
-    padding-right: 0px;
-    border: 0px solid #ccc;
     text-align: left;
-    vertical-align: top;
-    width: 33.33%;
+    font-weight: 700;
+    padding: 14px 0px 6px;
+    font-size: 16px;
 }
 }
 
