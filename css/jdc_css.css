@@ -1,6 +1,7 @@
 table.JDC_schart {
     width: 100%;
     max-width: 800px;
+    min-width: 30px
     height: 24px;
     text-align: center;
     border-collapse: collapse;
@@ -8,6 +9,21 @@ table.JDC_schart {
     display: table;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media all and (max-width:600px) {
+    table.JDC_schart{
+     width: 480px;
+    height: 24px;
+    text-align: center;
+    border-collapse: collapse;
+    background-color: #f6f6f6;
+    table-layout: fixed;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;   
+    }
+
 }
 
 table.JDC_schart td,
