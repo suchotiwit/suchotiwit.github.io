@@ -22,7 +22,8 @@ table.JDC_schart {
     table-layout: fixed;
     display: table;
     margin-left: auto;
-    margin-right: auto;   
+    margin-right: auto;  
+    font-size: 12px 
     }
 
 }
