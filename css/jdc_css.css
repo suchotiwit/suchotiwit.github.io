@@ -32,7 +32,7 @@ table.JDC_schart {
     }
 
 }
-
+*/
 
 @media screen and (max-width:600px) {
     table.JDC_schart {
@@ -62,7 +62,7 @@ table.JDC_schart {
         vertical-align: top;
     }
 }
-*/
+
 
 table.JDC_schart td,
 table.JDC_schart th {
