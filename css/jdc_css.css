@@ -12,6 +12,7 @@ table.JDC_schart {
     word-break: normal;
     overflow-wrap: normal;
     font-size: 13px;
+    vertical-align: top;
 }
 /*
 @media screen and (max-width:600px) {
@@ -45,6 +46,7 @@ table.JDC_schart {
     word-break: normal;
     overflow-wrap: normal; 
      font-size: 12px;
+     vertical-align: top;
     }
     table.JDC_schart td {
     font-size: 12px;
@@ -54,6 +56,7 @@ table.JDC_schart th {
     font-weight: bold;
     color: #333333;
     border-bottom: .05rem solid #e7e7e7;
+    vertical-align: top;
 }
 
 }
@@ -350,8 +353,6 @@ table.JDC_two_column td:nth-child(odd) {
     margin-bottom: 0px;
 }
 }
-
-
 
 .horizontal_line {
     border-top: 0.5px solid #dddddd;
