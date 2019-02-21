@@ -72,6 +72,10 @@ table.JDC_schart th {
     padding-bottom: 8px;
 }
 
+table.JDC_schart tr {
+    vertical-align: top;
+}
+
 table.JDC_schart td {
     font-size: 12px;
 }
