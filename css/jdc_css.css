@@ -1,3 +1,9 @@
+@media only screen and (max-width: 480px)  {
+  .full {
+    display:block;
+    width:100%;
+  }
+}
 table.JDC_schart {
     width: 800px;
     max-width: 100%;
@@ -9,8 +15,8 @@ table.JDC_schart {
     margin-left: auto;
     margin-right: auto;
     table-layout: fixed;
-    word-break: normal;
-    overflow-wrap: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
     font-size: 13px;
     vertical-align: top;
 }
@@ -26,8 +32,8 @@ table.JDC_schart {
         margin-left: auto;
         margin-right: auto;
         table-layout: fixed;
-        word-break: normal;
-        overflow-wrap: normal;
+        word-break: break-word;
+        overflow-wrap: break-word;
         font-size: 12px;
         vertical-align: top;
     }
@@ -94,8 +100,8 @@ table.JDC_spec {
     margin-left: auto;
     margin-right: auto;
     table-layout: fixed;
-    word-break: normal;
-    overflow-wrap: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
     font-size: 13px;
     vertical-align: top;
 }
@@ -110,8 +116,8 @@ table.JDC_spec {
         margin-left: auto;
         margin-right: auto;
         table-layout: fixed;
-        word-break: normal;
-        overflow-wrap: normal;
+        word-break: break-word;
+        overflow-wrap: break-word;
         font-size: 13px;
         vertical-align: top;
     }
@@ -151,8 +157,8 @@ table.JDC_table {
     margin-left: auto;
     margin-right: auto;
     table-layout: fixed;
-    word-break: normal;
-    overflow-wrap: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
     font-size: 13px;
     vertical-align: top;
 }
@@ -167,8 +173,8 @@ table.JDC_table {
         margin-left: auto;
         margin-right: auto;
         table-layout: fixed;
-        word-break: normal;
-        overflow-wrap: normal;
+        word-break: break-word;
+        overflow-wrap: break-word;
         font-size: 13px;
         vertical-align: top;
     }
@@ -201,8 +207,8 @@ p.JDC_paragraph {
     font-size: 14px;
     margin-bottom: 8px;
     margin-top: 8px;
-    word-break: normal;
-    overflow-wrap: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 h1.JDC_h1 {
@@ -210,8 +216,8 @@ h1.JDC_h1 {
     margin-top: 8px;
     font-size: 16px;
     font-weight: 700;
-    word-break: normal;
-    overflow-wrap: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 h2.JDC_h2 {
@@ -219,8 +225,8 @@ h2.JDC_h2 {
     margin-top: 8px;
     font-size: 14px;
     font-weight: 700;
-    word-break: normal;
-    overflow-wrap: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 ul.JDC_bullet {
@@ -228,18 +234,22 @@ ul.JDC_bullet {
     font-size: 14px;
     margin-top: 4px;
     margin-bottom: 16px;
-    word-break: normal;
-    overflow-wrap: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
-li.JDC_bullet {}
+li.JDC_bullet {
+    list-style: disc;
+    word-break: break-word;
+    overflow-wrap: break-word;
+}
 
 p.JDC_bold {
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 4px;
-    word-break: normal;
-    overflow-wrap: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 table.JDC_three_column {
@@ -251,20 +261,16 @@ table.JDC_three_column {
     margin-left: auto;
     margin-right: auto;
     vertical-align: top;
-    word-break: normal;
-    overflow-wrap: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
     margin-top: 4px;
 }
 
 img.JDC_three_column {
     height: 256px;
     width: 256px;
-    max-height: none;
     max-width: 100%;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
+    padding: 0px;
     object-fit: contain;
 }
 
@@ -272,8 +278,8 @@ p.JDC_three_column {
     padding-bottom: 18px;
     margin: 0px;
     font-size: 14px;
-    word-break: normal;
-    overflow-wrap: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 td.JDC_three_column_title {
@@ -317,8 +323,9 @@ tr.JDC_three_column {}
         width: 100%;
     }
     img.JDC_three_column {
-        height: auto;
         width: 100%;
+        height: auto;
+        max-height: 248px;
         padding: 0px;
         object-fit: contain;
     }
@@ -334,8 +341,8 @@ table.JDC_two_column {
     margin-right: auto;
     margin-bottom: 8px;
     margin-left: auto;
-    word-break: normal;
-    overflow-wrap: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 td.JDC_two_column_title {
@@ -352,43 +359,36 @@ p.JDC_two_column {
     margin-bottom: 0px;
     margin-left: 0px;
     font-size: 14px;
-    word-break: normal;
-    overflow-wrap: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 td.JDC_two_column {
+padding: 0px;
 border: 0px solid #ccc;
     text-align: left;
 }
 
-td.JDC_two_column_right {
-    padding-top: 4px;
-    padding-right: 4px;
-    padding-bottom: 4px;
-    padding-left: 0px;
-    border: 0px solid #ccc;
-    text-align: left;
-}
 
 img.JDC_two_column_right {
-    max-width: 600px;
-    height: auto;
-    width: 93.3%;
-    float: left;
+    height: 256px;
+    width: 256px;
+    float: right;
+    object-fit: contain;
 }
 
 img.JDC_two_column_left {
-    max-width: 600px;
-    height: auto;
-    width: 93.3%;
-    float: right;
+    height: 256px;
+    width: 256px;
+    float: left;
+    object-fit: contain;
 }
 
 .JDC_two_column_right td:nth-child(2n+1) {
     width: 35%;
 }
 
-.JDC_two_column_left td:nth-child(2n) {
+.JDC_two_column_left td:nth-child(2n+1) {
     width: 35%;
 }
 
@@ -406,8 +406,8 @@ img.JDC_two_column_left {
         display: block;
         margin: 8px auto 0px;
         vertical-align: top;
-        word-break: normal;
-        overflow-wrap: normal;
+        word-break: break-word;
+        overflow-wrap: break-word;
     }
     table.JDC_two_column td:nth-child(2n+1) {
         width: 100%;
@@ -439,21 +439,20 @@ img.JDC_two_column_left {
         margin-left: auto;
         margin-right: auto;
         margin-top: 0px;
-        margin-bottom: 12px !important;
+        margin-bottom: 12px;
     }
     p.JDC_two_column {
         padding-bottom: 16px;
         font-size: 14px;
-        word-break: normal;
-        overflow-wrap: normal;
+        word-break: break-word;
+        overflow-wrap: break-word;
     }
-    img.JDC_two_column_right {
-        height: auto;
+    img.JDC_two_column_right, img.JDC_two_column_left {
         width: 100%;
-    }
-    img.JDC_two_column_left {
         height: auto;
-        width: 100%;
+        max-height: 248px;
+        padding: 0px;
+        object-fit: contain;
     }
 }
 
