@@ -15,28 +15,9 @@ table.JDC_schart {
     vertical-align: top;
 }
 
-
-/*
-@media screen and (max-width:600px) {
-    table.JDC_schart{
-    width: 480px;
-    height: 24px;
-    text-align: center;
-    border-collapse: collapse;
-    background-color: #f6f6f6;
-    table-layout: fixed;
-    display: table;
-    margin-left: auto;
-    margin-right: auto;  
-    font-size: 12px 
-    }
-
-}
-*/
-
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
     table.JDC_schart {
-        width:100% ;
+        width: 100%;
         height: 24px;
         text-align: center;
         border-collapse: collapse;
@@ -57,18 +38,17 @@ table.JDC_schart {
         font-size: 12.5px;
         font-weight: bold;
         color: #333333;
-        border-bottom: .05rem solid #e7e7e7;
+        border-bottom: 0.05rem solid #e7e7e7;
         vertical-align: top;
     }
 }
 
-
 table.JDC_schart td,
 table.JDC_schart th {
-    padding-left: 12px;
-    padding-right: 12px;
     padding-top: 8px;
+    padding-right: 12px;
     padding-bottom: 8px;
+    padding-left: 12px;
 }
 
 table.JDC_schart tr {
@@ -79,23 +59,33 @@ table.JDC_schart td {
     font-size: 12px;
 }
 
-table.JDC_schart tr:nth-child(even) {
-    background: #FFFFFF;
+table.JDC_schart tr:nth-child(2n) {
+    background-color: white;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
 }
 
 table.JDC_schart {
-    background: linear-gradient(to bottom, #f8f8f8, #eee);
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(to bottom, #f8f8f8, #eeeeee);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
 }
 
 table.JDC_schart th {
     font-size: 13px;
     font-weight: bold;
     color: #333333;
-    border-bottom: .05rem solid #e7e7e7;
+    border-bottom-width: 0.05rem;
+    border-bottom-style: solid;
+    border-bottom-color: #e7e7e7;
 }
 
 table.JDC_spec {
-    width:800px ;
+    width: 800px;
     max-width: 100%;
     height: 24px;
     text-align: left;
@@ -110,42 +100,46 @@ table.JDC_spec {
     vertical-align: top;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
     table.JDC_spec {
-    width:100%;
-    height: 24px;
-    text-align: left;
-    border-collapse: collapse;
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
-    table-layout: fixed;
-    word-break: normal;
-    overflow-wrap: normal;
-    font-size: 13px;
-    vertical-align: top;
+        width: 100%;
+        height: 24px;
+        text-align: left;
+        border-collapse: collapse;
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+        table-layout: fixed;
+        word-break: normal;
+        overflow-wrap: normal;
+        font-size: 13px;
+        vertical-align: top;
     }
 }
 
 table.JDC_spec td,
 table.JDC_spec th {
-    border-top: .05rem solid #e7e7e7;
-    padding-left: 12px;
-    padding-right: 12px;
+    border-top-width: 0.05rem;
+    border-top-style: solid;
+    border-top-color: #e7e7e7;
     padding-top: 8px;
+    padding-right: 12px;
     padding-bottom: 8px;
+    padding-left: 12px;
 }
 
 table.JDC_spec td {
     font-size: 14px;
 }
 
-table.JDC_spec td:nth-child(odd) {
-    background: #f3f3f3;
-    width: 35%
+table.JDC_spec td:nth-child(2n+1) {
+    background-color: #f3f3f3;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    width: 35%;
 }
-
-
 
 table.JDC_table {
     width: 800px;
@@ -163,39 +157,38 @@ table.JDC_table {
     vertical-align: top;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
     table.JDC_table {
-    width: 100%;
-    height: 24px;
-    text-align: left;
-    border-collapse: collapse;
-    display: table;
-    margin-left: auto;
-    margin-right: auto;
-    table-layout: fixed;
-    word-break: normal;
-    overflow-wrap: normal;
-    font-size: 13px;
-    vertical-align: top;
+        width: 100%;
+        height: 24px;
+        text-align: left;
+        border-collapse: collapse;
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+        table-layout: fixed;
+        word-break: normal;
+        overflow-wrap: normal;
+        font-size: 13px;
+        vertical-align: top;
     }
     table.JDC_spec td {
-    font-size: 13px;
-}
+        font-size: 13px;
+    }
 }
 
 table.JDC_table td,
 table.JDC_table th {
-    padding-left: 0px;
-    padding-right: 0px;
     padding-top: 4px;
+    padding-right: 0px;
     padding-bottom: 4px;
+    padding-left: 0px;
 }
 
 table.JDC_table td {
     font-size: 14px;
     vertical-align: top;
 }
-
 
 img.JDC_img {
     max-width: 100%;
@@ -207,6 +200,7 @@ img.JDC_img {
 p.JDC_paragraph {
     font-size: 14px;
     margin-bottom: 8px;
+    margin-top: 8px;
     word-break: normal;
     overflow-wrap: normal;
 }
@@ -231,7 +225,6 @@ h2.JDC_h2 {
 
 ul.JDC_bullet {
     padding-left: 20px;
-    list-style: disc;
     font-size: 14px;
     margin-top: 4px;
     margin-bottom: 16px;
@@ -239,14 +232,11 @@ ul.JDC_bullet {
     overflow-wrap: normal;
 }
 
-li.JDC_bullet {
-    list-style: disc;
-}
+li.JDC_bullet {}
 
 p.JDC_bold {
     font-size: 14px;
     font-weight: 700;
-    word-break: normal;
     margin-bottom: 4px;
     word-break: normal;
     overflow-wrap: normal;
@@ -267,9 +257,15 @@ table.JDC_three_column {
 }
 
 img.JDC_three_column {
-    height: auto;
-    width: 100%;
-    padding: 0px;
+    height: 256px;
+    width: 256px;
+    max-height: none;
+    max-width: 100%;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    object-fit: contain;
 }
 
 p.JDC_three_column {
@@ -292,10 +288,11 @@ td.JDC_three_column {
     border: 0px solid #ccc;
     text-align: left;
     vertical-align: top;
-    width: 33%;
+    width: 32.8%;
 }
 
 td.JDC_three_column_right {
+    border-top-width: 0px;
     border: 0px solid #ccc;
     text-align: left;
     vertical-align: top;
@@ -304,7 +301,7 @@ td.JDC_three_column_right {
 
 tr.JDC_three_column {}
 
-@media all and (max-width:600px) {
+@media all and (max-width: 600px) {
     table.JDC_three_column,
     tr.JDC_three_column {
         display: block;
@@ -313,26 +310,32 @@ tr.JDC_three_column {}
     td.JDC_three_column,
     td.JDC_three_column_right {
         padding: 0px;
-        border: 0px solid #ccc;
+        border: 0px solid #cccccc;
         text-align: left;
         vertical-align: top;
         display: block;
         width: 100%;
     }
+    img.JDC_three_column {
+        height: auto;
+        width: 100%;
+        padding: 0px;
+        object-fit: contain;
+    }
 }
 
 table.JDC_two_column {
-    width:100% ;
+    width: 100%;
     border-collapse: collapse;
     table-layout: fixed;
     max-width: 800px;
     display: block;
-    margin-left: auto;
+    margin-top: 8px;
     margin-right: auto;
+    margin-bottom: 8px;
+    margin-left: auto;
     word-break: normal;
     overflow-wrap: normal;
-    margin-bottom: 8px;
-    margin-top: 8px;
 }
 
 td.JDC_two_column_title {
@@ -344,65 +347,84 @@ td.JDC_two_column_title {
 
 p.JDC_two_column {
     padding-bottom: 12px;
-    margin: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
     font-size: 14px;
     word-break: normal;
     overflow-wrap: normal;
 }
 
 td.JDC_two_column {
-    border: 0px solid #ccc;
+border: 0px solid #ccc;
     text-align: left;
-    vertical-align: top;
 }
 
 td.JDC_two_column_right {
-    padding: 4px;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 0px;
     border: 0px solid #ccc;
     text-align: left;
-    padding-left: 0px;
 }
 
-img.JDC_two_column {
+img.JDC_two_column_right {
     max-width: 600px;
     height: auto;
     width: 93.3%;
+    float: left;
 }
 
-.JDC_two_column_right td:nth-child(odd) {
-    width: 35%
+img.JDC_two_column_left {
+    max-width: 600px;
+    height: auto;
+    width: 93.3%;
+    float: right;
 }
 
-.JDC_two_column_left td:nth-child(even) {
-    width: 35%
+.JDC_two_column_right td:nth-child(2n+1) {
+    width: 35%;
 }
 
-@media all and (max-width:600px) {
+.JDC_two_column_left td:nth-child(2n) {
+    width: 35%;
+}
+
+@media all and (max-width: 600px) {
     th.JDC_two_column,
     td.JDC_two_column,
     tr.JDC_two_column {
         display: block;
     }
     table.JDC_two_column {
-    width:100% ;
-    border-collapse: collapse;
-    table-layout: fixed;
-    max-width: 800px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    vertical-align: top;
-    word-break: normal;
-    overflow-wrap: normal;
-    margin-bottom: 0px;
-    margin-top: 8px;
-}
-    table.JDC_two_column td:nth-child(odd) {
-        width: 100%
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+        max-width: 800px;
+        display: block;
+        margin: 8px auto 0px;
+        vertical-align: top;
+        word-break: normal;
+        overflow-wrap: normal;
+    }
+    table.JDC_two_column td:nth-child(2n+1) {
+        width: 100%;
     }
     td.JDC_two_column_right {
         padding: 0px;
         display: block;
+    }
+    td.JDC_two_column_left {
+        padding: 0px;
+        display: block;
+    }
+    .JDC_two_column_left td:nth-child(2n) {
+        width: 100%;
+    }
+    .JDC_two_column_right td:nth-child(2n+1) {
+        width: 100%;
     }
     td.JDC_two_column_title {
         text-align: left;
@@ -412,7 +434,7 @@ img.JDC_two_column {
     }
     .horizontal_line_mobile {
         border-bottom: 0.5px solid #dddddd;
-        width:800px ;
+        width: 800px;
         max-width: 100%;
         margin-left: auto;
         margin-right: auto;
@@ -425,25 +447,34 @@ img.JDC_two_column {
         word-break: normal;
         overflow-wrap: normal;
     }
-    img.JDC_two_column {
+    img.JDC_two_column_right {
+        height: auto;
+        width: 100%;
+    }
+    img.JDC_two_column_left {
         height: auto;
         width: 100%;
     }
 }
 
 .JDC_horizontal_line {
-    border-top: 0.5px solid #dddddd;
+    border-top-width: 0.5px;
+    border-top-style: solid;
+    border-top-color: #dddddd;
     width: 100%;
     max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 0px;
+    margin-right: auto;
     margin-bottom: 0px;
+    margin-left: auto;
     line-height: 8px;
 }
 
 .JDC_center {
-    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
     max-width: 800px;
 }
 
@@ -477,7 +508,10 @@ img.JDC_two_column {
 }
 
 .JDC_margin_0px {
-  margin: 0px;  
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
 }
 
 .JDC_font_size_14px {
@@ -503,6 +537,7 @@ img.JDC_two_column {
 .JDC_vertical_align_middle {
     vertical-align: middle;
 }
+
 .JDC_vertical_align_top {
     vertical-align: top;
 }
