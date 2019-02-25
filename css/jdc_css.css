@@ -370,18 +370,20 @@ border: 0px solid #ccc;
 }
 
 
-img.JDC_two_column_right {
+img.JDC_two_column_left {
     height: 256px;
     width: 256px;
     float: right;
     object-fit: contain;
+    padding-left: 8px;
 }
 
-img.JDC_two_column_left {
+img.JDC_two_column_right {
     height: 256px;
     width: 256px;
     float: left;
     object-fit: contain;
+    padding-right: 8px;
 }
 
 .JDC_two_column_right td:nth-child(2n+1) {
